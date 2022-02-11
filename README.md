@@ -4,7 +4,7 @@
 **Activate the virtual environment**
 
 ```
-source python-blockchain/blockchain-env/bin/activate
+source blockchain-env/bin/activate
 ```
 
 
