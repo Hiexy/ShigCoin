@@ -1,6 +1,5 @@
 import time
 
-from numpy import average
 from backend.blockchain.blockchain import Blockchain
 from backend.config import MINE_RATE, SECONDS
 

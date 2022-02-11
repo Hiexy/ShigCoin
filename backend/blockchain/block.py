@@ -1,6 +1,5 @@
 import time
 
-from numpy import block, rec
 from backend.util.crypto_hash import crypto_hash
 from backend.util.hex_to_binary import hex_to_binary
 from backend.config import MINE_RATE
@@ -10,7 +9,7 @@ GENESIS_DATA = {
     'last_hash': 'gensis_last_hash',
     'hash': 'gensis_hash',
     'data': [],
-    'difficulty': 16,
+    'difficulty': 3,
     'nonce': 'gensis_nonce'
 }
 
