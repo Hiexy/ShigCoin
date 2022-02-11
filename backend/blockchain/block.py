@@ -1,6 +1,13 @@
 import time
 from backend.util.crypto_hash import crypto_hash
 
+GENESIS_DATA = {
+    'timestamp': 1,
+    'last_hash': 'gensis_last_hash',
+    'hash': 'gensis_hash',
+    'data': []
+}
+
 
 class Block:
     """
@@ -40,8 +47,14 @@ class Block:
         Generate the genesis block.
         """
 
-        return Block(1, 'gensis_last_hash', 'gensis_hash', [])
+        # return Block(
+        #     timestamp=GENESIS_DATA['timestamp'],
+        #     last_hash=GENESIS_DATA['last_hash'],
+        #     hash=GENESIS_DATA['hash'],
+        #     data_GENESIS_DATA['data']
+        # )
 
+        return Block(**GENESIS_DATA)
 
 def main():
 
