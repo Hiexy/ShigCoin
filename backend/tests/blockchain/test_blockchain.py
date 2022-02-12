@@ -1,4 +1,3 @@
-from numpy import block
 import pytest
 from backend.blockchain.blockchain import Blockchain
 from backend.blockchain.block import GENESIS_DATA
